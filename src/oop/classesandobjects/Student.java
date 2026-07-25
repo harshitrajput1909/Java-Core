@@ -21,6 +21,7 @@ public class Student {
         Students two=one;
         one.name="Something something";
         System.out.println(two.name);
+        System.out.println(two.marks);
     }
 }
 class Students{
