@@ -13,7 +13,7 @@ public class Human {
         this.name=b;
         this.salary=c;
         this.married=x;
-        Human.population+=1;// in this everything we make an obj
+        Human.population+=1;// in this everytime we make an obj
         // the human class population variable which is static is increase by 1
 
     }
