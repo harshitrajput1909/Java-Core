@@ -1,13 +1,24 @@
 package inheritance;
 
 public class Vehicle {
-    String brand;
-    int year;
-    Vehicle(String name,int model){
-        this.brand=name;
-        this.year=model;
+   public String name;
+    public String year;
+   public int NoOfTyres;
+    Vehicle(){
+        this.name="";
+        this.year="";
+        this.NoOfTyres=-1;
     }
-    void displayInfo(){
-        System.out.println();
+    Vehicle(String name,String model,int tyre){
+        this.name=name;
+        this.year=model;
+        this.NoOfTyres=tyre;
+
+    }
+    void Start(){
+        System.out.println("Engine is started "+this.name);
+    }
+    void stop(){
+        System.out.println("Engine is stoped "+this.name);
     }
 }
